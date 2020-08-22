@@ -1,0 +1,212 @@
+html{
+  width: 100%;
+  overflow-x: hidden;
+}
+body{
+  text-align: center;
+  position: relative;
+}
+/* NavBar */
+.navbar {
+  background-color: #b4ca65;
+  padding: 10px;
+  border-bottom: 1px solid;
+  /* box-shadow: 5px 10px 18px #888888; */
+  position: sticky;
+}
+.btn-danger {
+  margin-left: 1rem;
+}
+.top{
+  background-color: #607026;
+  width: 100%;
+  height: 10%;
+}
+.brand {
+  width: 4.5rem;
+  padding: 0;
+}
+
+.nav-item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+.navbar{
+  z-index: 1;
+  position: absolute;
+}
+
+.Description{
+  z-index: 2;
+}
+/* Description Section */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.Description {
+  background-color: #b6eb7a;
+}
+.image {
+  width: 13%;
+  margin: 3% 45%;
+}
+
+.lead{
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #222831;
+}
+
+.btns {
+  margin-left: 38%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.btnss {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  text-align: center;
+  padding-left: 3rem;
+
+}
+
+/* Testimonials Section */
+.col-lg-4 {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  position: relative;
+
+}
+
+.card {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.testimonial-image {
+  width: 40%;
+}
+
+.colored-section {
+  background-color: #fff;
+}
+
+.class {
+  text-align: center;
+}
+
+/* Footer Section */
+.container-fluid {
+  text-align: center;
+  background-color: #1b262c;
+  color: #fff;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cont {
+  background-color: #fff;
+}
+
+/* Contact us */
+.form-group {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 18%;
+  padding-right: 30%;
+}
+/* #search{
+  margin-right: 30%;
+  position: relative;
+} */
+
+/* Login Section */
+.images {
+  width: 20%;
+}
+
+.modal-title {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-left: 3%;
+  font-size: 1.3rem;
+  font-family: Montserrat, sans-serif;
+}
+
+.modal-body {
+  width: 43rem;
+}
+
+.Form {
+  padding-left: 0;
+}
+
+/* Sign up Section */
+#btn {
+  margin-left: 0px;
+}
+.mt-2, .my-2 {
+    margin-top: .5rem!important;
+}
+/* About Section */
+h1 {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 6rem;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+}
+
+.about {
+  font-family: 'Sora', sans-serif;
+}
+
+/* Icons */
+.icon {
+  padding-left: 3%;
+}
+
+.col-md-6 {
+  text-align: center;
+  padding-right: 5%;
+}
+.card{
+  position: relative;
+  padding: auto;
+}
+.test{
+  padding: 100px;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+/* contact us section */
